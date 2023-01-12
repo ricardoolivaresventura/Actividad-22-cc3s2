@@ -10,21 +10,21 @@ Además, podemos crear un informe de las secciones que no se prueban, así como 
 
 # Agregar JaCoCo a Gradle
 - Agregaremos el complemento jacoco al archivo build.gradle.
-![Alt text](https://raw.githubusercontent.com/ricardoolivaresventura/Actividad-21-cc3s2/main/jacoco-gradle.PNG "")
+![Alt text](https://raw.githubusercontent.com/ricardoolivaresventura/Actividad-22-cc3s2/main/jacoco-gradle.PNG "")
 
 - Luego, podemos decirle a Gradle que falle en caso haya una baja cobertuda de código, en este caso le diremos que la cobertura de código mínima es un 20%
-![Alt text](https://raw.githubusercontent.com/ricardoolivaresventura/Actividad-21-cc3s2/main/jacoco-rules.PNG "")
+![Alt text](https://raw.githubusercontent.com/ricardoolivaresventura/Actividad-22-cc3s2/main/jacoco-rules.PNG "")
 
 - Podemos ejecutarlo con el sgte comando:
-![Alt text](https://raw.githubusercontent.com/ricardoolivaresventura/Actividad-21-cc3s2/main/jacoco-test.PNG "")
+![Alt text](https://raw.githubusercontent.com/ricardoolivaresventura/Actividad-22-cc3s2/main/jacoco-test.PNG "")
 
 - También, podemos crear un reporte
-![Alt text](https://raw.githubusercontent.com/ricardoolivaresventura/Actividad-21-cc3s2/main/jacoco-report.PNG "")
+![Alt text](https://raw.githubusercontent.com/ricardoolivaresventura/Actividad-22-cc3s2/main/jacoco-report.PNG "")
 
 # Agregando una etapa de cobertura de código
 - Agregar una etapa de cobertura de código al pipeline es tan simple como las etapas anteriores:
-![Alt text](https://raw.githubusercontent.com/ricardoolivaresventura/Actividad-21-cc3s2/main/jacoco-stage.PNG "")
+![Alt text](https://raw.githubusercontent.com/ricardoolivaresventura/Actividad-22-cc3s2/main/jacoco-stage.PNG "")
 - Publicación del informe de cobertura de código
-![Alt text](https://raw.githubusercontent.com/ricardoolivaresventura/Actividad-21-cc3s2/main/publicar-informe-cobertura.PNG "")
+![Alt text](https://raw.githubusercontent.com/ricardoolivaresventura/Actividad-22-cc3s2/main/publicar-informe-cobertura.PNG "")
 
 # Análisis de código estático
